@@ -17,7 +17,7 @@ public class Main {
         writer.close();
         BufferedReader reader1=new BufferedReader(new FileReader("practice.txt"));
          String line ;
-         while ((line reader1.readLine() !=null){
+         while ((line = reader1.readLine())!=null){
              System.out.println(line);
          }
 
